@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+source ./common
+
+if [[ -z "$INSTALL_PREFIX" ]] ; then INSTALL_PREFIX="/usr/local" ; fi
+
+$INSTALL -m 644 "$BUILD_DIR/gllib/$LIBRARY_NAME.a" "$INSTALL_PREFIX/lib" &&
+$INSTALL -m 644 "include/"{list,xlist,array_list,carray_list,linked_list,avltree_list,rbtree_list,linkedhash_list,avltreehash_list,rbtreehash_list,sublist,xsublist,oset,xoset,array_oset,avltree_oset,rbtree_oset}.h "$INSTALL_PREFIX/include" &&
+
+exit 0 # EX_OK
