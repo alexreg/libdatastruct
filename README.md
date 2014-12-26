@@ -6,7 +6,7 @@ libdatastruct
 The following data structures are provided.
 
 Data Structure | Description
-- | -
+--- | ---
 *list* | Abstract sequential list data type
 *xlist* | Abstract sequential list data type, with out-of-memory checking
 *array-list* | Sequential list data type implemented by an array
