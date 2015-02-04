@@ -5,6 +5,6 @@ source ./common
 if [[ -z "$INSTALL_PREFIX" ]] ; then INSTALL_PREFIX="/usr/local" ; fi
 
 $INSTALL -m 644 "$BUILD_DIR/gllib/$LIBRARY_NAME.a" "$INSTALL_PREFIX/lib" &&
-$INSTALL -m 644 "include/"{xalloc,xalloc-oversized,list,xlist,array_list,carray_list,linked_list,avltree_list,rbtree_list,linkedhash_list,avltreehash_list,rbtreehash_list,sublist,xsublist,oset,xoset,array_oset,avltree_oset,rbtree_oset}.h "$INSTALL_PREFIX/include" &&
+$INSTALL -m 644 "include/"{xalloc,xalloc-oversized,gl_list,gl_xlist,gl_array_list,gl_carray_list,gl_linked_list,gl_avltree_list,gl_rbtree_list,gl_linkedhash_list,gl_avltreehash_list,gl_rbtreehash_list,gl_sublist,gl_xsublist,gl_oset,gl_xoset,gl_array_oset,gl_avltree_oset,gl_rbtree_oset}.h "$INSTALL_PREFIX/include" &&
 
 exit 0 # EX_OK
