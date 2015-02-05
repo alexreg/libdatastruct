@@ -23,7 +23,7 @@
 #include "xalloc-oversized.h"
 
 #ifndef XALLOC_INLINE
-# define XALLOC_INLINE inline
+# define XALLOC_INLINE static inline
 #endif
 
 #ifdef __cplusplus

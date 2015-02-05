@@ -22,7 +22,7 @@
 #include <stddef.h>
 
 #ifndef GL_LIST_INLINE
-# define GL_LIST_INLINE inline
+# define GL_LIST_INLINE static inline
 #endif
 
 #ifdef __cplusplus

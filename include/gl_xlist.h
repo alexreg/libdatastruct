@@ -22,7 +22,7 @@
 #include "xalloc.h"
 
 #ifndef GL_XLIST_INLINE
-# define GL_XLIST_INLINE inline
+# define GL_XLIST_INLINE static inline
 #endif
 
 #ifdef __cplusplus

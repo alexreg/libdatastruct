@@ -22,7 +22,7 @@
 #include <stddef.h>
 
 #ifndef GL_OSET_INLINE
-# define GL_OSET_INLINE inline
+# define GL_OSET_INLINE static inline
 #endif
 
 #ifdef __cplusplus

@@ -22,7 +22,7 @@
 #include "xalloc.h"
 
 #ifndef GL_XOSET_INLINE
-# define GL_XOSET_INLINE inline
+# define GL_XOSET_INLINE static inline
 #endif
 
 
